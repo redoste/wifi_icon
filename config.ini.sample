@@ -1,0 +1,4 @@
+# Define the maximum value of your wifi card link quality
+# You can use wavemon (https://github.com/uoaerg/wavemon/) to get it
+[wifiicon]
+MaximumLevel = 0
