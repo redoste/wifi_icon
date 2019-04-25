@@ -6,12 +6,12 @@ Simple python script that provide a Gtk tray icon indicating the strength of the
 Dependencies
 ------------
 
-| Generic Name      | Void Linux                  | Arch Linux                 | Debian                |
-|-------------------|-----------------------------|----------------------------|-----------------------|
-| [Python 3][py]    | [python3][pyvoid]           | [python][pyarch]           | [python3][pydeb]      |
-| [PyGObject][pygo] | [python3-gobject][pygovoid] | [python-gobject][pygoarch] | [python3-gi][pygodeb] |
-| [Gtk 3][gtk]      | [gtk+3][gtkvoid]            | [gtk3][gtkarch]            | [libgtk-3-0][gtkdeb]  |
-| [iw][iw]          | [iw][iwvoid]                | [iw][iwarch]               | [iw][iwdeb]           |
+| Generic Name      | Void Linux                  | Arch Linux                 | Debian                 |
+|-------------------|-----------------------------|----------------------------|------------------------|
+| [Python 3][py]    | [python3][pyvoid]           | [python][pyarch]           | [python3][pydeb]       |
+| [PyGObject][pygo] | [python3-gobject][pygovoid] | [python-gobject][pygoarch] | [python3-gi][pygodeb]  |
+| [Gtk 3][gtk]      | [gtk+3-devel][gtkvoid]      | [gtk3][gtkarch]            | [libgtk-3-dev][gtkdeb] |
+| [iw][iw]          | [iw][iwvoid]                | [iw][iwarch]               | [iw][iwdeb]            |
 
 [py]: https://www.python.org/
 [pygo]: https://pygobject.readthedocs.io
@@ -30,7 +30,7 @@ Dependencies
 
 [pydeb]: https://packages.debian.org/stable/python3
 [pygodeb]: https://packages.debian.org/stable/python3-gi
-[gtkdeb]: https://packages.debian.org/stable/libgtk-3-0
+[gtkdeb]: https://packages.debian.org/stable/libgtk-3-dev
 [iwdeb]: https://packages.debian.org/stable/iw
 
 Usage
